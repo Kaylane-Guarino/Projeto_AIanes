@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>
+            Escola Virtual StartUp
+        </title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+    </head>
+    <body>
+        <!-- Área do menu -->
+        <header class="containerMenu">
+            <nav>
+                <figure>
+                    <a href="#containerSlogan">
+                    <img src="imagens/logomarca.png" id="trocaFigure">
+                    </a>
+                </figure>
+                <ul id="menu">
+                    <li class="itemMenu">
+                        <a href="#containerAIanes" class="link">
+                        A IANES
+                        </a>
+                    </li>
+                    <li class="itemMenu">
+                        <a href="#EadeOnline" class="link">
+                            O que é um curso Online?
+                        </a>
+                    </li>
+                    <li class="itemMenu">
+                        <a href="#containerCursos" class="link">
+                        Cursos Online
+                        </a>
+                            <ul id="submenu">
+                                <li class="itemSubmenu">
+                                    HTML
+                                </li>
+                                <li class="itemSubmenu">
+                                    HTML5
+                                </li>
+                                <li class="itemSubmenu">
+                                    CSS
+                                </li><li class="itemSubmenu">
+                                    SOP
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="itemMenu">
+                        <a href="#containerProfessores" class="link">
+                        Professores
+                        </a>
+                    </li>
+                    <li class="itemMenu">Contato</li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Área do Slogan -->
+        <div id="containerSlogan"></div>
+        <!-- Área do Conteudo A IANES-->
+        <div id="containerAIanes">
+            <section class="conteudo">
+                <h1>A IANES</h1>
+                <div id="textoMaior">
+                    <p>
+                        A IANES é a maior plataforma brasileira de cursos de tecnologia.
+                    </p>
+                </div>
+                <div id="textoMenor">
+                    <p>
+                        Cursos para quem quer começar na área de programação e para quem já tem experiência na área mas quer refrescar a memória!
+                    </p>
+                </div>
+                <div id="video"></div>
+            </section>
+        </div>
+         <!-- SEÇÃO DO DIEFERENÇA DE CURSOS ONLINE E EAD-->
+         <div id="containerDiferenca">
+            <section class="conteudo">
+                <div id="remoto">
+                        <h1>
+                            O que é Ead e cursos Online?
+                        </h1>
+                    <div class="itemImagem">
+                       
+                    </div>
+                    <div class="itemTexto">
+                       <h1> Remoto</h1>
+                        <p >
+                            As aulas e atividades remotas são aplicadas pontualmente, basicamente acompanhamos o ensino presencial aplicado em plataformas digitais.
+                        </p>
+                    </div>
+                </div>
+                <div id="ead">
+                    <div class="itemImagem2">
+                   
+                    </div>
+                    <div class="itemTexto2">
+                        <h1> Ead </h1>
+                        <p>
+                            o EAD foi desenhado para prestar atendimento, aplicar atividades, aulas  e outras demandas em um ambiente de aprendizado, com apoio de tutores e recursos tecnológicos que favorecem o ensino.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <hr>
+        <!-- ÁREA DA LISTA DE CURSOS -->
+        <div id="containerCursos">
+            <section id="containerMenor">
+                <h1>
+                    Nossos Cursos
+                </h1>
+                <div class="cardCursos">
+                    <h2>
+                        HTML
+                    </h2>
+                    <h3 id="frontBasico">
+                        Frot-end 
+                        <br/>
+                        Básico
+                    </h3>
+                    <p>
+                        Lições básicas sobre HTML, com o HTML você aprende a fazer um site simples.
+                    </p>
+                    <div id="decoraçaoHtml"></div>
+                </div>
+                <div class="cardCursos">
+                    <h2>
+                        HTML5
+                    </h2>
+                    <h3 id="frontAtual">
+                        Frot-end HTML 
+                        <br/>
+                        Atualizado
+                    </h3>
+                    <p>
+                        Lições básicas sobre HTML5, mesmo formato do HTML simples mas com códigos a mais complementando no HTML.
+                    </p>
+                    <div id="decoraçao5"></div>
+                </div>
+                <div class="cardCursos">
+                    <h2>
+                        CSS
+                    </h2>
+                    <h3 id="frontAvançado">
+                        Frot-end 
+                        <br/>
+                        Avançado
+                    </h3>
+                    <p>
+                        Lições básicas sobre CSS, com o css você aprende a fazer um site mais bonito, com animações e interações com o usuário.
+                    </p>
+                    <div id="decoraçaoCss"></div>
+                </div>
+                <div class="cardCursos">
+                    <h2>
+                        Sistemas
+                        <br/>
+                        Operacionais
+                    </h2>
+                    <h3 id="sop">
+                        Básico Sobre
+                        <br/>
+                        Computador
+                    </h3>
+                    <p>
+                       Instalação de sistemas operacionais, Sistema Operacional de código aberto, Sistema Operacional de código fechado.
+                    </p>
+                    <div id="decoraçaoSop"></div>
+                </div>
+            </section>
+        </div>
+        <hr>
+        <!-- ÁREA PROFESSORES -->
+        <section id="containerProfessores">
+            <h1>
+                Professores
+            </h1>
+            <div class="cardsProfessores">
+                <div id="fotoMarcel"></div>
+                <div class="informaçaosobreoProfessor">
+                    <p>
+                        "Ensino Front-end usando HTML, HTML5 e CSS."
+                        <br/>
+                        <br/>
+                        - Professor Marcel
+                    </p>
+                </div>
+            </div>
+            <div class="cardsProfessores">
+                <div id="fotoLuiz"></div>
+                <div class="informaçaosobreoProfessor">
+                    <p>
+                        "Ensino definição, sistema de  arquivos e instalação com particionamento de disco."
+                        <br/>
+                        <br/>
+                        - Professor Luiz
+                    </p>
+                </div>
+            </div>
+            <div class="cardsProfessores">
+                <div id="fotoPedroMartins">
+                    <p>
+                        P
+                    </p>
+                </div>
+                <div class="informaçaosobreoProfessor">
+                    <p>
+                        "Ensino a arquitetura dos Sistemas Operacionais."
+                        <br/>
+                        <br/>
+                        - Professor Pedro Martins
+                    </p>
+                </div>
+            </div>
+            <div class="cardsProfessores">
+                <div id="fotoRicardo">
+                    <p>
+                        R
+                    </p>
+                </div>
+                <div class="informaçaosobreoProfessor">
+                    <p>
+                        "Ensino definição, Histórico e classificação em monotarefa e multitarefa."
+                        <br/>
+                        <br/>
+                        - Professor Ricardo B.
+                    </p>
+                </div>
+            </div>
+            <div class="cardsProfessores">
+                <div id="fotoAline">
+                    <p>
+                        A
+                    </p>
+                </div>
+                <div class="informaçaosobreoProfessor">
+                    <p>
+                        "Ensino sobre Sistema Operacional de código aberto e fechado."
+                        <br/>
+                        <br/>
+                        - Professora Aline M.
+                    </p>
+                </div>
+            </div>
+            <div class="cardsProfessores">
+                <div id="fotoFelipe">
+                    <p>
+                        F
+                    </p>
+                </div>
+                <div class="informaçaosobreoProfessor">
+                    <p>
+                        "Definição, sistema de  arquivos e instalação com particionamento de disco."
+                        <br/>
+                        <br/>
+                        - Professor Felipe A.
+                    </p>
+                </div>
+            </div>
+        </section>
+         <!-- SEÇÃO DE CONTATOS-->
+         <div id="containerContatos">
+            <section class="conteudo">
+                <div id="mapa">
+                   
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5641.579387058489!2d-46.89909395102147!3d-23.52848638044096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0154039cb55b%3A0xadf34a919f156950!2sSENAI%20Jandira%20-%20Professor%20Vicente%20Amato!5e0!3m2!1spt-BR!2sbr!4v1612897142347!5m2!1spt-BR!2sbr" width="500" height="450"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                        </iframe>                
+                   
+                </div>
+            </section>
+                <div id="redeSociais">
+                        <div class="instagram">
+                           <p>
+                             @escolaIanes
+                            </p>
+                        </div>
+                         <div class="facebook">
+                              <p>
+                                    Escola Virtual Ianes
+                              </p>
+                        </div>
+                         <div class="whatsApp">
+                               <p>
+                                    (11) 99876-5432
+                               </p>
+                        </div>
+                </div>
+                <div id="redesSociaisLogo">
+                    <div class="iconeInstagram">
+                    </div>
+                     <div class="iconeFacebook"></div>
+                     <div class="iconeWhatsApp"></div>
+                </div>
+             
+        </div>
+       <!-- Área do rodapé -->
+        <footer id="containerRodape">
+            <div class="conteudo">
+                <div id="direitosReservados">
+                    <p>
+                        © Copyright 2021
+                        Todos os direitos reservados - Política de Privacidade
+                    </p>
+                     
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript" src="script/index.js"></script>
+
+</html>
