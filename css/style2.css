@@ -1,0 +1,256 @@
+html {
+    scroll-behavior: smooth;
+    scroll-margin: 60px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* SEÇÃO PADRONIZADAS */
+
+#menuCursos{
+    width: 700px;
+    height: 750px;
+    background-color: cadetblue;
+    margin-top: 65px;
+}
+
+.color{
+    color: white;
+}
+
+a{
+    text-decoration:none;
+    color: cadetblue;
+}
+
+.conteudo{
+    width: 1200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    width: 100%;
+    height: 50px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding-top: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+h1::first-letter{
+    font-size: 1.5em;
+    color: cadetblue;
+}
+
+h2{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding-top: 12px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    width: 1200px;
+}
+
+
+/* SEÇÃO DO MENU */
+
+.containerMenu{
+    width: 100%;
+    height: 65px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 999;
+}
+
+.fixed{
+    background-color: rgba(21,141,163,.9);
+    transition: background-color .5s linear;
+}
+
+nav{
+    width: 1200px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure{
+    width: 90px;
+    height: 65px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    float: left;
+}
+img{
+    width: 90px;
+    height: 90px;
+    margin-left: 0px;
+    margin-top: -15px;
+}
+
+#menu{
+    width: 1000px;
+    height: inherit;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.itemMenu{
+    width: 200px;
+    height: inherit;
+    font-family: 'Open Sans',sans-serif;    
+    color: cadetblue;
+    font-size: .9em;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tc-white{
+    color: white;
+}
+
+/* SEÇÃO DO SUBMENU */
+#submenu {
+    width: inherit;
+    height: inherit;
+	position: absolute;
+	visibility: hidden;
+    padding-inline-start: 0px !important;
+}
+
+#submenuTroca {
+    width: inherit;
+    height: inherit;
+	position: absolute;
+	visibility: hidden;
+    padding-inline-start: 0px !important;
+}
+
+.itemSubmenu{
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgb(53, 53, 53);
+}
+
+.colorSubmenu{
+    background-color: rgba(21,141,163,.9);
+    transition: background-color .5s linear;
+}
+
+.colorSubmenu:hover{
+    background-color: white !important;
+    color: rgb(21,141,163) !important;
+    transition: background-color .5s linear;
+}
+
+li:hover ul#submenu {
+	top: 65px;
+	visibility: visible;
+}
+li:hover ul#submenuTroca {
+	top: 65px;
+	visibility: visible;
+}
+
+.itemSubmenu:hover{
+    background-color: rgba(21,141,163,.9);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+
+#containerCursos{
+    width: 100%;
+    height: 475px;
+    padding-top: 50px;
+    
+}
+
+
+#videoTabela{
+    width: 1200px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+     padding-top: 25px;
+}
+
+
+#containerCursosImagem{
+    width: 100%;
+    height: 475px;
+    margin-top: 50px;
+    
+}
+
+
+#videoImagem{
+    width: 1200px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+
+/*ÁREA DO RODAPÉ*/
+#containerRodape{
+    width: 100%;
+    height:50px;
+    background-color:teal;
+}
+
+#direitosReservados{
+    width: 1200px;
+    height:50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+#direitosReservados p{
+    margin-top: 25px;
+    font-size: 1.3em;
+}
